@@ -1,0 +1,9 @@
+{
+    "fmt": {
+        "useTabs": true,
+        "semiColons": false,
+        "include": [
+            "packages/**/*"
+        ]
+    }
+}

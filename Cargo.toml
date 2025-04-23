@@ -1,2 +1,7 @@
 [workspace]
-members = []
+members = [
+    "juniper-core",
+    "juniper-core-plugin",
+    "juniper-modelsets",
+    "juniper-cli",
+]
