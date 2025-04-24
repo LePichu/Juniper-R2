@@ -1,1 +1,7 @@
-{ "name": "juniper-workspace", "private": true }
+{
+	"name": "juniper-workspace",
+	"private": true,
+	"scripts": {
+		"fmt": "deno fmt ."
+	}
+}

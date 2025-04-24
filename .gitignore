@@ -1,5 +1,9 @@
 .vscode
 .idea
 
+include/data/.obsidian
+include/*.build.modelfile
+
+
 node_modules
 target

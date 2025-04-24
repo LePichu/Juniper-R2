@@ -1,17 +1,17 @@
-import { defineConfig } from "@solidjs/start/config";
+import { defineConfig } from "@solidjs/start/config"
 /* @ts-ignore */
-import pkg from "@vinxi/plugin-mdx";
+import pkg from "@vinxi/plugin-mdx"
 
-const { default: mdx } = pkg;
+const { default: mdx } = pkg
 export default defineConfig({
-  extensions: ["mdx", "md"],
-  vite: {
-    plugins: [
-      mdx.withImports({})({
-        jsx: true,
-        jsxImportSource: "solid-js",
-        providerImportSource: "solid-mdx"
-      })
-    ]
-  }
-});
+	extensions: ["mdx", "md"],
+	vite: {
+		plugins: [
+			mdx.withImports({})({
+				jsx: true,
+				jsxImportSource: "solid-js",
+				providerImportSource: "solid-mdx",
+			}),
+		],
+	},
+})

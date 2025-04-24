@@ -1,7 +1,7 @@
 [workspace]
 members = [
-    "juniper-core",
-    "juniper-core-plugin",
-    "juniper-modelsets",
-    "juniper-cli",
+    "crates/juniper-core",
+    "crates/juniper-core-plugin",
+    "crates/juniper-modelsets",
+    "crates/juniper-cli",
 ]

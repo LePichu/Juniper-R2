@@ -1,9 +1,9 @@
 {
-    "fmt": {
-        "useTabs": true,
-        "semiColons": false,
-        "include": [
-            "packages/**/*"
-        ]
-    }
+	"fmt": {
+		"useTabs": true,
+		"semiColons": false,
+		"include": [
+			"packages/**/*"
+		]
+	}
 }
