@@ -1,9 +1,9 @@
 @import url("./fonts.css");
+@import url("./md.css");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 html,
 body {
@@ -30,4 +30,10 @@ body {
     mask-size: 100%;
     mask-position: center;
     mask-repeat: no-repeat;
+}
+
+.bg-branding {
+    background-image: url("/bg.png");
+    background-position: center;
+    background-size: cover;
 }
